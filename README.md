@@ -1,4 +1,4 @@
-# FODA_CC
+# [ATRI]
 BetterDiscord Theme:
 Name of theme :  [ATRI]
 Author        :  Carlchak
