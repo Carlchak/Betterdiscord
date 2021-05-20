@@ -1,9 +1,4 @@
-# [ATRI]
-BetterDiscord Theme:
-Name of theme :  [ATRI]
-Author        :  Carlchak
-description   :  ATRI : マスターが残した最後のコマンドを完了したい!
-
+# [BetterDiscord Themes]
 
 Welcome to edit and download！！！
-Allow you to customize anything of  the theme.
+Allow you to customize anything of the theme.
