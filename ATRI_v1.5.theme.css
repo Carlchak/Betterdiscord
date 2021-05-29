@@ -1,67 +1,61 @@
 /**
  * @name [ATRI]
  * @author Carlchak
- * @description ATRI : マスターが残した最後のコマンドを完了したい!
+ * @description An anime girl who is smile at me!!!
  * @version 1.6
- * @authorId 667658667465900073
- * @website https://github.com/Carlchak/Betterdiscord
- * @source https://github.com/Carlchak/Betterdiscord/blob/main/ATRI_v1.6.theme.css
  */
 
-
-    /* REMOVE NITRO TAB */
  @import url(https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css);
  @import url(https://tomrdh.github.io/discord-addons/xcores/themes/SFOMIR_Core.css);
 
 
-  /*                                   ------ GENERAL ------                                   */
+ /* CHANGE BACKGROUND PICTURE */
+ #app-mount .app-2rEoOp {
+background-image: url(https://i.imgur.com/Oni0kVe.jpg);
+background-size: cover;
 
-    /* CHANGE BACKGROUND PICTURE */
-  #app-mount .app-2rEoOp {
-      background-image: url(https://i.imgur.com/Oni0kVe.jpg);
-      background-size: cover;
+  /* CHANGE HOMEPAGE ICON : https://imgur.com/lTPwUAO */
+--friends-icon: url(https://i.imgur.com/vLdtAdb.jpg); 
+--friends-icon-position: center center;
+--friends-icon-zoom: 100%;
 
-    /* CHANGE HOMEPAGE ICON : https://imgur.com/lTPwUAO */
-      --friends-icon: url(https://i.imgur.com/vLdtAdb.jpg); 
-      --friends-icon-position: center center;
-      --friends-icon-zoom: 100%;
-   }
+}
 
-    /* HOMEPAGE ICON SETTING : https://imgur.com/lTPwUAO */
-  .tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-1BJsBx  {
-      background: var(--friends-icon) !important;
-      background-position: var(--friends-icon-position) !important;
-      background-repeat: no-repeat !important;
-      background-size: var(--friends-icon-zoom) !important;
-      border-radius: 40%;
-  }
 
-    /* HOMEPAGE ICON OPACITY : https://imgur.com/lTPwUAO */
-  .tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-1BJsBx svg {
-      opacity: 0;
-  }
+  /* HOMEPAGE ICON SETTING : https://imgur.com/lTPwUAO */
+.tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-1BJsBx  {
+  background: var(--friends-icon) !important;
+  background-position: var(--friends-icon-position) !important;
+  background-repeat: no-repeat !important;
+  background-size: var(--friends-icon-zoom) !important;
+  border-radius: 40%;
+}
+  /* HOMEPAGE ICON OPACITY : https://imgur.com/lTPwUAO */
+.tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-1BJsBx svg {
+  opacity: 0;
+}
 
-    /* HOMEPAGE ICON SETTING : https://imgur.com/lTPwUAO */
-  .tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-1BJsBx .childWrapper-anI2G9{
-      background-color:initial
-  }
+  /* HOMEPAGE ICON SETTING : https://imgur.com/lTPwUAO */
+.tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-1BJsBx .childWrapper-anI2G9{
+  background-color:initial
+}
 
-    /* FOLDER ICON SETTING : https://imgur.com/qyAlMW3 */
-  .folderIconWrapper-1_bOZe{
-      border-radius:40%
-  }
+  /* FOLDER ICON SETTING : https://imgur.com/qyAlMW3 */
+.folderIconWrapper-1_bOZe{
+  border-radius:40%
+}
 
-    /* FOLDER ICON SETTING : https://imgur.com/qyAlMW3 */
-  .folder-1hbNCn{
-      background-color:initial
-  }
+  /* FOLDER ICON SETTING : https://imgur.com/qyAlMW3 */
+.folder-1hbNCn{
+  background-color:initial
+}
 
-    /* CHANGE SLATE TEXT AREA : https://imgur.com/g571PBq */
-  .slateTextArea-1Mkdgw {
-      caret-color: pink;
-      left: -1px;
-      top: 1px !important;
-  }
+  /* CHANGE SLATE TEXT AREA : https://imgur.com/g571PBq */
+.slateTextArea-1Mkdgw {
+    caret-color: greenyellow;
+    left: -1px;
+    top: 1px !important;
+}
 
   /* CHANGE WINDOW BAR COLOR : https://imgur.com/pzRJfEb */
 .typeWindows-1za-n7{
@@ -916,22 +910,6 @@
   border-bottom: none;
 }
 
-  /* CHANGE ROLES DEFAULT PERMISSIONS : https://imgur.com/UOav9ND */
-  .theme-dark .container-_phMUq {
-    background-color: rgba(0, 0, 0, .23);
-  }
-    /* CHANGE ROLES DEFAULT PERMISSIONS HOVER : https://imgur.com/UOav9ND */
-  .theme-dark .container-_phMUq:hover {
-    background-color: rgba(0, 0, 0, .13);
-  }
-  
-    /* CHANGE ROLES : https://imgur.com/wgo4tHH */
-  .theme-dark .header-2mZ9Ov,
-  .theme-dark .titleContainer-2CXtJo {
-    background-color: rgb(124, 142, 160);
-    border-radius: 10px;
-  }
-
 
 .theme-dark .operations-36ENbA {
   color: white;
@@ -1011,15 +989,10 @@
   border-radius: 4px;
 }
 
-  /* CHANGE SERVER MENU POPOUT : https://imgur.com/lqPitA6 */
 .theme-dark .styleFixed-sX-yHV {
-  background: rgba(0, 0, 0, 0.78);
+  background: rgba(0,0,0,0.8);
   box-shadow: none;
-  border-radius: 16px;
-  border: 2px solid #9db3c9;
 }
-
-
 .theme-dark .separator-2I32lJ {
   border: none;
 }
@@ -1114,15 +1087,11 @@
   background: linear-gradient(90deg,hsla(0,0%,100%,.12) 20%,hsla(0,0%,100%,0));
   color: white;
 }
-
-  /* CHANGE USER POPOUT : https://imgur.com/cIbXDIY */
 .userPopout-3XzG_A {
   box-shadow: 0 7px 10px 0 rgba(0,0,0,.8);
   width: 250px;
-  border-radius: 5px;
+  border-radius: 0;
 }
-
-
 .root-SR8cQa {
   box-shadow: 0 7px 10px 0 rgba(0,0,0,.8);
   border-radius: 0;
@@ -1154,9 +1123,6 @@
 .bodyTitle-Y0qMQz {
   color: white;
 }
-
-
-
 .theme-dark .note-3kmerW textarea:focus,
 .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus {
   background-color: rgba(255,255,255,.12);
